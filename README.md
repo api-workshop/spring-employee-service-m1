@@ -56,15 +56,19 @@ Instructions to login to the workshop PCF foundation:
 cf login
 ```
 
+Package the app into a jar file
+```
 ./mvnw clean package
+```
 
+Push that jar file to your space on PCF
+```
 cf push employee -p target/employee-0.0.1-SNAPSHOT.jar --random-route
+```
 
+Get some information about the application you pushed
+```
 cf app employee
-
-Take note of the "routes" :
-employee-something.tld
-
-Visit that URL.
+```
 
 You just pushed an app out to the world! (Hello world!)
