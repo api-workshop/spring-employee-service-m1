@@ -28,6 +28,7 @@ curl https://start.spring.io/starter.tgz \
 Now you have a spring boot app that is ready to run:
 
 ```
+cd employee
 ./mvnw spring-boot:run
 ```
 
