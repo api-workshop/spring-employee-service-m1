@@ -42,12 +42,12 @@ Package the app into a jar file
 
 Push that jar file to your space on PCF
 ```
-cf push employee -p target/employee-0.0.1-SNAPSHOT.jar --random-route
+cf push spring-employee -p target/employee-0.0.1-SNAPSHOT.jar --random-route
 ```
 
 Get some information about the application you pushed
 ```
-cf app employee
+cf app spring-employee
 ```
 
 You just pushed an app out to the world! (Hello world!)
