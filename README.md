@@ -6,7 +6,6 @@ Use [https://start.spring.io](https://start.spring.io)
 to create a baseline project with some required dependencies:
 
 * JPA
-* Lombok
 * Rest Repositories (data-rest)
 * H2
 * MySQL
@@ -15,7 +14,7 @@ Or use this curl command to generate the project:
 
 ```
 curl https://start.spring.io/starter.tgz \
--d dependencies=jpa,lombok,data-rest,h2,mysql \
+-d dependencies=jpa,data-rest,h2,mysql \
 -d language=java \
 -d type=maven-project \
 -d bootVersion=1.5.17.RELEASE \
