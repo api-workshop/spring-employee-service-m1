@@ -1,8 +1,8 @@
 # Session 1 - Hello World
-    
+
 ## Create a Spring Boot App
-    
-Use [https://start.spring.io](https://start.spring.io) 
+
+Use [https://start.spring.io](https://start.spring.io)
 to create a baseline project with some required dependencies:
 
 * JPA
@@ -10,6 +10,8 @@ to create a baseline project with some required dependencies:
 * H2
 * MySQL
 * Lombok
+
+![Local Image](/assets/spring_io.png)
 
 Or use this curl command to generate the project:
 
@@ -37,7 +39,7 @@ cd employee
 ./mvnw spring-boot:run
 ```
 
-It will startup with an embeded Tomcat Server on 
+It will startup with an embeded Tomcat Server on
 [http://localhost:8080/](http://localhost:8080)
 
 ## Deploy to PCF
