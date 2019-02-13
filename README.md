@@ -11,6 +11,8 @@ to create a baseline project with some required dependencies:
 * MySQL
 * Lombok
 
+(see image below)
+
 ![Local Image](/assets/spring-io.JPG)
 
 Or use this curl command to generate the project:
