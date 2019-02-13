@@ -44,6 +44,8 @@ cd employee
 ./mvnw spring-boot:run
 ```
 
+**Note:** On Windows, use `mvnw.cmd` instead of `./mvnw`
+
 It will startup with an embeded Tomcat Server on
 [http://localhost:8080/](http://localhost:8080)
 
