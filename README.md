@@ -2,7 +2,7 @@
 
 ## Create a Spring Boot App
 
-Use [https://start.spring.io](https://start.spring.io)
+1. Use [https://start.spring.io](https://start.spring.io)
 to create a baseline project with some required dependencies:
 
 * JPA
@@ -14,6 +14,9 @@ to create a baseline project with some required dependencies:
 (see image below)
 
 ![Local Image](/assets/spring-io.JPG)
+
+2. Click on `Generate Project` to download the zip file
+3. Copy the zip file to your workspace and unzip it
 
 Or use this curl command to generate the project:
 
