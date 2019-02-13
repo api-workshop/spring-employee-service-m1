@@ -9,12 +9,13 @@ to create a baseline project with some required dependencies:
 * Rest Repositories (data-rest)
 * H2
 * MySQL
+* Lombok
 
 Or use this curl command to generate the project:
 
 ```
 curl https://start.spring.io/starter.tgz \
--d dependencies=jpa,data-rest,h2,mysql \
+-d dependencies=jpa,data-rest,h2,mysql,lombok \
 -d language=java \
 -d type=maven-project \
 -d bootVersion=1.5.17.RELEASE \
@@ -26,7 +27,7 @@ curl https://start.spring.io/starter.tgz \
 Note: In Windows, you may have to run the following,
 
 ```
-curl https://start.spring.io/starter.tgz -d dependencies=jpa,data-rest,h2,mysql -d language=java -d type=maven-project -d bootVersion=1.5.17.RELEASE -d groupId=com.example.api -d artifactId=employee -d baseDir=employee | tar -xzvf -
+curl https://start.spring.io/starter.tgz -d dependencies=jpa,data-rest,h2,mysql,lombok -d language=java -d type=maven-project -d bootVersion=1.5.17.RELEASE -d groupId=com.example.api -d artifactId=employee -d baseDir=employee | tar -xzvf -
 ```
 
 Now you have a spring boot app that is ready to run:
