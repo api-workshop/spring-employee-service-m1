@@ -1,5 +1,9 @@
 # Session 1 - Hello World
 
+## Goal
+
+Create a barebone Spring Boot App and push it to Pivotal Platform.
+
 ## Create a Spring Boot App
 
 1. Use [https://start.spring.io](https://start.spring.io)
