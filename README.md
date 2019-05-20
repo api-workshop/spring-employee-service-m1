@@ -74,4 +74,4 @@ You just pushed an app out to the world! (Hello world!)
 
 ## Add some Swagger to this app
 
-[Java w/ Spring Data JPA](https://github.com/cts-workshop-02-2019/spring-employee-service-m2)
+[Java w/ Spring Data JPA](https://github.com/cts-workshop-05-2019/spring-employee-service-m2#spring-employee-service-m2)
