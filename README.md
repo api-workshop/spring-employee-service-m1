@@ -29,7 +29,7 @@ curl https://start.spring.io/starter.tgz \
 -d dependencies=jpa,data-rest,h2,mysql,lombok \
 -d language=java \
 -d type=maven-project \
--d bootVersion=1.5.19.RELEASE \
+-d bootVersion=2.1.5.RELEASE \
 -d groupId=com.example.api \
 -d artifactId=employee \
 -d baseDir=employee | tar -xzvf -
